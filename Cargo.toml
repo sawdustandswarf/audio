@@ -1,0 +1,14 @@
+[package]
+name = "audio"
+description = "Sound in and out on Linux, our own: PulseAudio's native protocol (as PipeWire serves it) and WAV files, std only"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+missing_debug_implementations = "warn"
+
+[lints.clippy]
+undocumented_unsafe_blocks = "warn"
